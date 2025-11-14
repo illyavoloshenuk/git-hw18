@@ -1,0 +1,32 @@
+Filesystem                Size      Used Available Use% Mounted on
+/dev/root                 1.0G    210.5M    813.5M  21% /
+devtmpfs                123.0M         0    123.0M   0% /dev
+
+
+USER="Illia"
+"User: $USER"
+"Working dir: $(pwd)"
+--- history ---
+   0 cd /tmp
+   1 ls
+   2 nano file.txt
+   3 df -h | head -n 3 >> file.txt
+   4 cat file.txt
+   5 ls -l file.txt
+   6 chmod g+wx file.txt
+   7 chmod o-rwx file.txt
+   8 ls -l file.txt
+   9 cd ~
+  10 nano myfirstbashscript.sh
+  11 chmod +x myfirstbashscript.sh
+  12 ls -l myfirstbashscript.sh
+  13 cat myfirstbashscript.sh
+  14 Ñ‚Ñnano file.txt
+  15 cat myfirstbashscript.sh
+  16 nano myfirstbashscript.sh
+  17 cat myfirstbashscript.sh
+  18 echo "ok script done"
+  19 cat myfirstbashscript.sh >> /tmp/file.txt
+  20 echo "script added to file.txt"
+  21 echo "--- history ---" >> /tmp/file.txt
+  22 history >> /tmp/file.txt
